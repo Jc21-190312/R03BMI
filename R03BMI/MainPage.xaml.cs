@@ -32,20 +32,13 @@ namespace R03BMI
                     we=we/1000;
                     //g→kg
                 }
-                else
-                {
-                    //kg
-                }
+
 
                 if (he > 2.5)
                 {
                     we=we/100;
-                    //cm→m
                 }
-                else
-                {
-                    //m
-                }
+
 
                 bmi = we /(he*he);
                 result.Text=bmi.Tostring();
