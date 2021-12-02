@@ -19,7 +19,7 @@ namespace R03BMI
         private void Button_Clicked(object sender, EventArgs e)
         {
             string w = "weighit";
-            String h = "heighit";
+            string h = "heighit";
             double bmi;
 
             try
