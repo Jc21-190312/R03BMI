@@ -33,7 +33,7 @@ namespace R03BMI
                 }
                 if (he > 2.5)
                 {
-                    we=we/100;
+                    he=he/100;
                 }
                 bmi = we /(he*he);
                 result.Text=bmi.Tostring();
