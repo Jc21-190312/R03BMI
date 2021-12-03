@@ -37,8 +37,7 @@ namespace R03BMI
                 }
                 bmi = we /(he*he);
                 result.Text=bmi.Tostring();
-            }
-            catch (FormatException ex)
+            }catch (FormatException ex)
             {
                 Console.WriteLine(ex);
             }
