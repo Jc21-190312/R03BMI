@@ -18,6 +18,9 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
+            string w = "weighit";
+            string h = "heighit";
+            double bmi;
         }
     }
 }
