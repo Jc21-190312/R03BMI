@@ -33,7 +33,6 @@ namespace R03BMI
                    he=he/100;
            }
            bmi = we /(he*he);
-           result.Text=bmi.Tostring();
         }
     }
 }
