@@ -22,17 +22,18 @@ namespace R03BMI
             string h = "heighit";
             double bmi;
 
-           double we = parse.double(w);
-           double he = parse.double(h);
+           double we = double.Parse(w);
+           double he = double.Parse(h);
            if (we > 200)
            {
                 we=we/1000;
            }
             if (he > 2.5)
-           {
+            {
                    he=he/100;
-           }
-           bmi = we /(he*he);
+            }
+            bmi = we /(he*he);
+            result.Text=bmi.Tostring();
         }
     }
 }
