@@ -18,32 +18,6 @@ namespace R03BMI
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            string w = "weighit";
-            string h = "heighit";
-            double bmi;
-
-            try
-            {
-                double we = parse.double(w);
-                double he = parse.double(h);
-
-                if (we > 200)
-                {
-                    we=we/1000;
-                }
-                if (he > 2.5)
-                {
-                    he=he/100;
-                }
-                bmi = we /(he*he);
-                result.Text=bmi.Tostring();
-            }catch (FormatException ex)
-            {
-                Console.WriteLine(ex);
-            }
-
-
-
         }
     }
 }
