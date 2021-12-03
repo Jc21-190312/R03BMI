@@ -26,14 +26,14 @@ namespace R03BMI
            double he = double.Parse(h);
            if (we > 200)
            {
-                we=we/1000;
+                we = we/1000;
            }
             if (he > 2.5)
             {
-                   he=he/100;
+                   he = he/100;
             }
             bmi = we /(he*he);
-            result.Text=bmi.Tostring();
+            result.Text=bmi+"";
         }
     }
 }
